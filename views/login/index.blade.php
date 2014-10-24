@@ -1,4 +1,4 @@
-@extends('layouts.clean')
+@extends('admin::layouts.clean')
 
 @section('body_content')
 

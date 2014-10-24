@@ -3,12 +3,14 @@
 namespace Tee\Auth\Controllers;
 
 use Tee\System\Controllers\BaseController;
-use View, Input, Auth, Redirect, Theme, Config;
+use View, Input, Auth, Redirect, Config;
+
+use Tee\System\Theme;
 
 class LoginController extends BaseController {
 
     public function __construct() {
-        Config::set('site.theme', 'admin');
+        Config::set('site.theme', null);
         parent::__construct();
     }
 
