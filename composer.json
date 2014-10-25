@@ -4,13 +4,13 @@
 	"keywords": ["teewebapp", "auth"],
 	"license": "MIT",
 	"require": {
-		"teewebapp/system": "dev-master",
-		"teewebapp/user": "dev-master"
+		"teewebapp/system": "dev-master@dev",
+		"teewebapp/user": "dev-master@dev"
 	},
 	"autoload": {
 		"classmap": [
 			"."
 		]
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }
