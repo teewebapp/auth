@@ -9,7 +9,9 @@
 	},
 	"autoload": {
 		"classmap": [
-			"."
+			"commands",
+			"controllers",
+			"tests"
 		]
 	},
 	"minimum-stability": "stable"
