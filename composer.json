@@ -8,11 +8,9 @@
 		"teewebapp/user": "dev-master@dev"
 	},
 	"autoload": {
-		"classmap": [
-			"commands",
-			"controllers",
-			"tests"
-		]
+		"psr-4": {
+			"Tee\\Auth": "."
+		}
 	},
 	"minimum-stability": "stable"
 }
